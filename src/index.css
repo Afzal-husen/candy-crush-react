@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image: url(./images/candy-crush-background-2.png);
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.grid {
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
+  margin-top: 46px;
+}
+
+.grid img {
+  width: 70px;
+  height: 70px;
+}
+
+.score {
+  text-align: center;
+  display: inline-block;
+  background-color: #ffcbcb;
+  width: 150px;
+  border-radius: 20px;
+  /* position: absolute; */
+  top: 50%;
+  box-shadow: 1px 1px 10px black;
+  margin-left: 130px;
+}
+
+.score h2{
+  color: #c9356c;
+}
+
+.score h1{
+  color: #ff347f;
 }
